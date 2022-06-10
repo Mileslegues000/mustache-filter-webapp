@@ -1,0 +1,25 @@
+body{
+    background-size: cover;
+}
+
+
+.btn-primary{
+    font-size: 30px;
+}
+
+.btn-success:hover{
+     background-color: cornflowerblue;
+     font-size: 20px;
+}
+
+canvas{
+    border: 1px solid black;
+    animation-name: joke;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes joke{
+    from{box-shadow: 5px 5px 38px rgb(0, 255, 157);}
+    to{box-shadow: 5px 5px 38px rgb(89, 0, 255);}
+}
